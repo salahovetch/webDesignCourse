@@ -1,0 +1,6 @@
+https://www.w3schools.com/html/html_styles.asp
+https://www.w3schools.com/html/html_colors.asp
+https://www.w3schools.com/html/html_css.asp
+https://www.w3schools.com/html/html_images_background.asp
+https://www.w3schools.com/html/html_table_borders.asp
+table styles with css in details

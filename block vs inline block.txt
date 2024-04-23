@@ -1,24 +1,26 @@
-salah
+
 block
 
-<h1 --- h6>
-<p> 
-<pre> 
-<hr> 
+<h1 --- h6></h1 --- h6>
+<p> </p> 
+<pre> </pre> 
+<hr /> 
 
 
 
 
 inline block
-
-<b>
-<strong>
-<i> 
-<em>
-<mark> 
-<small>
-<del> 
-<s>
-<ins> 
-<sub>
-<sup>
+<span></span>
+<b></b>
+<strong></strong>
+<i> </i> 
+<em></em>
+<mark> </mark> 
+<small></small>
+<del> </del> 
+<s></s>
+<ins> </ins>
+<sub></sub>
+<sup></sup>
+<a href="url">link text</a>
+<img src="img_girl.jpg" alt="Girl in a jacket" />
