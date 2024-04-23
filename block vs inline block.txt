@@ -1,0 +1,23 @@
+block
+
+<h1 --- h6>
+<p> 
+<pre> 
+<hr> 
+
+
+
+
+inline block
+
+<b>
+<strong>
+<i> 
+<em>
+<mark> 
+<small>
+<del> 
+<s>
+<ins> 
+<sub>
+<sup>
