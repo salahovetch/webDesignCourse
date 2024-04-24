@@ -4,3 +4,4 @@ https://www.w3schools.com/html/html_css.asp
 https://www.w3schools.com/html/html_images_background.asp
 https://www.w3schools.com/html/html_table_borders.asp
 table styles with css in details
+https://www.w3schools.com/html/html_scripts.asp

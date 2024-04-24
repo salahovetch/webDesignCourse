@@ -5,6 +5,11 @@ block
 <p> </p> 
 <pre> </pre> 
 <hr /> 
+<ul></ul>
+<ol></ol>
+
+
+the most common used tag in html ( of type block element) is <div></div>
 
 
 
@@ -24,3 +29,23 @@ inline block
 <sup></sup>
 <a href="url">link text</a>
 <img src="img_girl.jpg" alt="Girl in a jacket" />
+<iframe src="url" title="description"></iframe>
+
+
+
+
+
+
+
+
+Here are the block-level elements in HTML:
+
+
+
+<address><article><aside><blockquote><canvas><dd><div><dl><dt><fieldset><figcaption><figure><footer><form><h1>-<h6><header><hr><li><main><nav><noscript><ol><p><pre><section><table><tfoot><ul><video>
+
+
+
+Here are the inline elements in HTML:
+
+<a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map><object><output><q><samp><script><select><small><span><strong><sub><sup><textarea><time><tt><var>
