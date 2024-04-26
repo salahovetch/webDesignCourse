@@ -49,3 +49,10 @@ Here are the block-level elements in HTML:
 Here are the inline elements in HTML:
 
 <a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map><object><output><q><samp><script><select><small><span><strong><sub><sup><textarea><time><tt><var>
+
+
+Tag used to make website responsive to all devices ( pc – laptop – tablet - mobile )
+We should put this tag in head section
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
