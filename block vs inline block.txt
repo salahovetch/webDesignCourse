@@ -11,6 +11,26 @@ block
 
 the most common used tag in html ( of type block element) is <div></div>
 
+symantic tags ( describe content meaning) ===> most of this tags is related to html 5
+
+<header></header>
+<nav></nav>
+<section></section>
+<footer></footer>
+
+
+<article></article>
+<aside></aside>
+<details></details>
+<figcaption></figcaption>
+<figure></figure>
+<main></main>
+<mark></mark>
+
+
+<summary></summary>
+<time></time>
+
 
 
 
