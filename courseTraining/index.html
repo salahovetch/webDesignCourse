@@ -11,9 +11,7 @@
             width: 100px;
             height: 100px;
             background-color: yellow;
-            /* border-radius: 50%; */
             border: 4px solid green;
-            box-sizing: border-box;
         }
 
         .salah {
@@ -37,6 +35,22 @@
         header {
             background-color: green;
         }
+
+        h1 {
+            border: 4px solid green;
+            padding: 50px;
+            font-weight: bold;
+        }
+        h1.additionalBorder{
+            box-shadow: 1px 1px 10px black;
+        }
+        .shadowBlack{ box-shadow: 1px 1px 10px black;}
+        q {
+    background: red;
+    padding: 10px;
+    margin: 20px;
+    border: 5px solid #000;
+}
     </style>
 
     <!-- css files -->
@@ -75,7 +89,7 @@
 
 
 
-    <h6>sixs row</h6>
+    <h6 id="border4">sixs row</h6>
     <hr />
     <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
@@ -88,7 +102,7 @@
 
 
     </p>
-    <h1>sixs row</h1>
+    <h1 class="myClass">sixs row</h1>
     <pre>
     My Bonnie lies over the ocean.
   
@@ -147,7 +161,7 @@
     <img src="img/images.png" alt="html image" />
     <!-- alt is abbreviation for alternative text -->
 
-    <h1>--------------------------------------------------------------------------------------------------
+    <h1 class="additionalBorder">--------------------------------------------------------------------------------------------------
         --------------------------------------------------------------------------------------------------
         start table Tutorial
     </h1>
@@ -280,7 +294,7 @@
             <textarea placeholder="enter your address" name="address" value=""></textarea>
         </div>
 
-        
+
         <div>
             <input type="radio" id="html" name="fav_language" value="HTML" />
             <label for="html">HTML</label><br>
@@ -305,29 +319,29 @@
             <input type="password" placeholder="enter your password" name="password" value="" />
         </div>
         <div>
-            <input type="date"  name="date" value="" />
+            <input type="date" name="date" value="" />
         </div>
         <div>
-            <input type="color"  name="color" value="" />
+            <input type="color" name="color" value="" />
         </div>
         <div>
-            <input type="email" placeholder="enter your email"  name="email" value="" />
+            <input type="email" placeholder="enter your email" name="email" value="" />
         </div>
         <div>
-            <input type="file" placeholder="enter your email"  name="email" value="" />
+            <input type="file" placeholder="enter your email" name="email" value="" />
         </div>
         <div>
-            <input type="range" placeholder="enter your email"  name="email" value="" />
+            <input type="range" placeholder="enter your email" name="email" value="" />
         </div>
-<div>
-    <select>
-        <option value="1">option 1</option>
-        <option value="2">option 2</option>
-        <option value="3">option 3</option>
-        <option value="4">option 4</option>
-    </select>
-</div>
-   
+        <div>
+            <select>
+                <option value="1">option 1</option>
+                <option value="2">option 2</option>
+                <option value="3">option 3</option>
+                <option value="4">option 4</option>
+            </select>
+        </div>
+
         <button type="submit">submit</button>
         <!-- <textarea></textarea>
         <select>
@@ -340,6 +354,22 @@
         <button type="submit">submit</button>
         <button type="button">send OTP</button> -->
     </form>
+
+
+    <!-- start speed test -->
+    <header>
+        <a href="index.html">
+            <img src="img/images.png" alt="test" />
+        </a>
+
+        <nav>
+            <a href="index.html">الرئيسبة</a>
+            <a href="index.html">الرئيسبة</a>
+            <a href="index.html">الرئيسبة</a>
+            <a href="index.html">الرئيسبة</a>
+        </nav>
+    </header>
+
 </body>
 <!-- welcome message script -->
 
