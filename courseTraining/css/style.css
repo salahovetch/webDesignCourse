@@ -1,4 +1,7 @@
-
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 .radius {
     display: inline-block;
     width: 100px;
@@ -43,7 +46,44 @@ border: 5px solid #000;
 }
 body main pre h6{border: 10px solid green;}
 /* .Heading.salah.margin-50{border: 10px solid red;} */
-#margin-100{margin: 100px;}
-.margin-50{margin: 50px;}
 
 
+/* home page */
+
+/* about section */
+
+/* #margin-100{margin: 100px;}
+.margin-50{margin: 50px;} */
+
+/* services  section */
+
+/* #margin-100{margin: 100px;}
+.margin-50{margin: 50px;} */
+.font-cur{
+    font-family: cursive;
+}
+
+section{color: red;font-weight: bold;}
+.Heading{color: inherit;}
+body{
+    background-color: #fff;
+}
+.backGroundImg{
+    background-image: url(../img/boyD.png);
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    background-attachment: fixed;
+
+    height: 400px;
+    background: #ffffff url(../img/boyD.png) no-repeat center center;
+
+}
+.mt-5{margin-top: 5px;}
+.mb-5{margin-bottom: 5px;}
+.ml-5{margin-left: 5px;}
+.mr-5{margin-right: 5px;}
+.mtb-5{margin: 5px 0;}
+.p-20{padding: 20px;}
