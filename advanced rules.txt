@@ -7,5 +7,3 @@ table styles with css in details
 https://www.w3schools.com/html/html_scripts.asp
 
 https://www.w3schools.com/css/css_font.asp
-
-https://www.w3schools.com/css/css_display_visibility.asp
