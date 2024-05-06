@@ -2,6 +2,7 @@
     /* margin: 0; */
     box-sizing: border-box;
 }
+
 .radius {
     display: inline-block;
     width: 100px;
@@ -34,17 +35,26 @@ h1 {
     padding: 50px;
     font-weight: bold;
 }
-h1.additionalBorder{
+
+h1.additionalBorder {
     box-shadow: 1px 1px 10px black;
 }
-.shadowBlack{ box-shadow: 1px 1px 10px black;}
-q {
-background: red;
-padding: 10px;
-margin: 20px;
-border: 5px solid #000;
+
+.shadowBlack {
+    box-shadow: 1px 1px 10px black;
 }
-body main pre h6{border: 10px solid green;}
+
+q {
+    background: red;
+    padding: 10px;
+    margin: 20px;
+    border: 5px solid #000;
+}
+
+body main pre h6 {
+    border: 10px solid green;
+}
+
 /* .Heading.salah.margin-50{border: 10px solid red;} */
 
 
@@ -59,41 +69,74 @@ body main pre h6{border: 10px solid green;}
 
 /* #margin-100{margin: 100px;}
 .margin-50{margin: 50px;} */
-.font-cur{
+.font-cur {
     font-family: cursive;
 }
 
-section{color: red;font-weight: bold;}
-.Heading{color: inherit;}
-body{
+section {
+    color: red;
+    font-weight: bold;
+}
+
+.Heading {
+    color: inherit;
+}
+
+body {
     background-color: #fff;
 }
-.backGroundImg{
+
+.backGroundImg {
     background-image: url(../img/boyD.png);
 
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    
+
     background-attachment: fixed;
 
     height: 400px;
     background: #ffffff url(../img/boyD.png) no-repeat center center;
 
 }
-.mt-5{margin-top: 5px;}
-.mb-5{margin-bottom: 5px;}
-.ml-5{margin-left: 5px;}
-.mr-5{margin-right: 5px;}
-.mtb-5{margin: 5px 0;}
-.p-20{padding: 20px;}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mtb-5 {
+    margin: 5px 0;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
 /* a {
     background-color: #fff;
     margin: 0;
     padding: 0;} */
-.align-right{text-align: right;}
-.mx-20{margin: 0 20px;}
-body{
+.align-right {
+    text-align: right;
+}
+
+.mx-20 {
+    margin: 0 20px;
+}
+
+body {
     font-family: "Poetsen One", sans-serif;
 }
 
@@ -105,29 +148,115 @@ body{
     font-display: swap;
     src: url(../fonts/f1.woff2) format('woff2');
     unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-  /* latin */
-  @font-face {
+}
+
+/* latin */
+@font-face {
     font-family: 'Poetsen One';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
     src: url(../fonts/f2.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
-  .icons{
+}
+
+.icons {
     font-size: 30px;
-  }
-  .action:hover{background-color: #eee;}
-  ul,ol{list-style-type: none;}
-  ul li{list-style-type: circle;}
-  table{width: 100%;}
-  th {
+}
+
+.action:hover {
+    background-color: #eee;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+table {
+    width: 100%;
+}
+
+th {
     border: 1px solid #000;
     text-align: left;
 }
+
 td {
     border: 1px solid #000;
     text-align: left;
 }
-.w-100{width: 100px;}
+
+.w-100 {
+    width: 100px;
+}
+
+.posFixed {
+    position: fixed;
+    width: 100%;
+    top: 260px;
+    left: 10px;
+}
+/* .posSticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+} */
+.customBG{
+    background: #2f8313;
+    color: #fff;
+    height: 100px;
+
+}
+.relative{position: relative;}
+.inlineBlock{display: inline-block;}
+.discount{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.z-9{z-index: 9;}
+.z-5{z-index: 5;}
+
+.container {
+    position: relative;
+  }
+  
+  .black-box {
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+  }
+  
+  .gray-box {
+    position: absolute;
+    z-index: 3; /* gray box will be above both green and black box */
+    background: lightgray;
+    height: 60px;  
+    width: 70%;
+    left: 50px;
+    top: 50px;
+  }
+  
+  .green-box {
+    position: absolute;
+    z-index: 2; /* green box will be above black box */
+    background: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+  }
+  .customHeight{height: 200px;}
