@@ -260,3 +260,13 @@ td {
     height: 100px;
   }
   .customHeight{height: 200px;}
+  .childOne {
+    float: left;
+}
+.fLeft{float: left;}
+.fRight{float: right;}
+.topHeader::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
