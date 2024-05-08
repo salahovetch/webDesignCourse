@@ -270,3 +270,15 @@ td {
     clear: both;
     display: table;
   }
+  /* actural child or direct child */
+  div > p {
+    background-color: yellow;
+  }
+
+
+  /* .prag.class1.class2{
+    background-color: #000;
+  } */
+.hoverMe:hover{background-color: red;color: #fff;}
+.hiddenPara{display: none;}
+.sectionHover:hover .hiddenPara{display: block;}
