@@ -321,3 +321,7 @@ body::before{
     background-color: #000;
     
 } */
+.d-flex{display: flex;}
+.justify-between{
+    justify-content: space-between;
+}
