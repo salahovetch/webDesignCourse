@@ -201,21 +201,29 @@ td {
     top: 260px;
     left: 10px;
 }
+
 /* .posSticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     padding: 5px;
 } */
-.customBG{
+.customBG {
     background: #2f8313;
     color: #fff;
     height: 100px;
 
 }
-.relative{position: relative;}
-.inlineBlock{display: inline-block;}
-.discount{
+
+.relative {
+    position: relative;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.discount {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -225,69 +233,103 @@ td {
     font-size: 14px;
     border-radius: 10px;
 }
-.z-9{z-index: 9;}
-.z-5{z-index: 5;}
+
+.z-9 {
+    z-index: 9;
+}
+
+.z-5 {
+    z-index: 5;
+}
 
 .container {
     position: relative;
-  }
-  
-  .black-box {
+}
+
+.black-box {
     position: relative;
     z-index: 1;
     border: 2px solid black;
     height: 100px;
     margin: 30px;
-  }
-  
-  .gray-box {
+}
+
+.gray-box {
     position: absolute;
-    z-index: 3; /* gray box will be above both green and black box */
+    z-index: 3;
+    /* gray box will be above both green and black box */
     background: lightgray;
-    height: 60px;  
+    height: 60px;
     width: 70%;
     left: 50px;
     top: 50px;
-  }
-  
-  .green-box {
+}
+
+.green-box {
     position: absolute;
-    z-index: 2; /* green box will be above black box */
+    z-index: 2;
+    /* green box will be above black box */
     background: lightgreen;
     width: 35%;
     left: 270px;
     top: -15px;
     height: 100px;
-  }
-  .customHeight{height: 200px;}
-  .childOne {
+}
+
+.customHeight {
+    height: 200px;
+}
+
+.childOne {
     float: left;
 }
-.fLeft{float: left;}
-.fRight{float: right;}
+
+.fLeft {
+    float: left;
+}
+
+.fRight {
+    float: right;
+}
+
 .topHeader::after {
     content: "";
     clear: both;
     display: table;
-  }
-  /* actural child or direct child */
-  div > p {
+}
+
+/* actural child or direct child */
+div>p {
     background-color: yellow;
-  }
+}
 
 
-  /* .prag.class1.class2{
+/* .prag.class1.class2{
     background-color: #000;
   } */
-.hoverMe:hover{background-color: red;color: #fff;}
-.hiddenPara{display: none;}
-.sectionHover:hover .hiddenPara{display: block;}
-body{margin-bottom: 100px;}
-.bp{
+.hoverMe:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.hiddenPara {
+    display: none;
+}
+
+.sectionHover:hover .hiddenPara {
+    display: block;
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+.bp {
     position: relative;
     padding-bottom: 10px;
     display: inline-block;
 }
+
 .bp::before {
     content: "";
     width: 100px;
@@ -297,6 +339,7 @@ body{margin-bottom: 100px;}
     bottom: 0;
     display: block;
 }
+
 .bp::after {
     content: "salah";
     /* width: 100px;
@@ -307,6 +350,7 @@ body{margin-bottom: 100px;}
     display: block;
     right: 0;
 }
+
 /* body{
     background-image: url(../img/aboutLearnn.png);
     background-position: center center;
@@ -321,7 +365,42 @@ body::before{
     background-color: #000;
     
 } */
-.d-flex{display: flex;}
-.justify-between{
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
     justify-content: space-between;
 }
+
+.aligiItemsCenter {
+    align-items: center;
+}
+.aligiItemsBase {
+    align-items: baseline;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-33 {
+    width: 33.33%;
+}
+
+.m-5 {
+    margin: 5px;
+}
+
+.p-100 {
+    padding: 100px 0;
+}
+.services{background-color: #CFBADA;padding: 100px 0;}
