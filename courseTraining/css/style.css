@@ -403,4 +403,29 @@ body::before{
 .p-100 {
     padding: 100px 0;
 }
-.services{background-color: #CFBADA;padding: 100px 0;}
+.services{background-color: #CFBADA;padding: 100px 0;    background: rgb(142, 56, 66);
+    background: linear-gradient(90deg, rgba(142, 56, 66, 1) 0%, rgba(142, 64, 56, 1) 35%, rgba(0, 0, 0, 0.3337710084033614) 100%);
+}
+.text-black-new{color: #000 !important;}
+.text-blue-new{color: blue ;}
+.animateCustom{opacity: 0.5;transition: all 2s;}
+.animateCustom:hover{
+    /* transform: translate(50px,100px); */
+    /* transform: rotate(90deg); */
+    transform: scale(1.2);
+    /* transform: skewX(20deg); */
+    opacity: 1;
+}
+/* only tablet */
+@media(max-width:991px){
+    body{background-color: #000;}
+
+
+}
+/* only mobile */
+@media(max-width:480px){
+    body{background-color: #000;}
+    .navbar-brand{display: none;}
+
+
+}
