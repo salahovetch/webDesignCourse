@@ -429,3 +429,5 @@ body::before{
 
 
 }
+tbody tr:nth-child(odd){background-color: #000;}
+tbody tr:nth-child(even){background-color: #2f8313;}
